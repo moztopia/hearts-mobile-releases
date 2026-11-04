@@ -6,10 +6,18 @@ key for testing. These builds must never be used as production releases.
 
 **[Browse available downloads](https://github.com/moztopia/hearts-mobile-releases/releases)**
 
-No APK has been published yet. The first development prerelease is being
-prepared; its release notes will state which checks passed and which phone
-checks remain outstanding. The repository contains release guidance and
-metadata, not application source code or signing credentials.
+**[Download DemoHearts 0.0.20 — Android build 3 (APK, about 130 MiB)](https://github.com/moztopia/hearts-mobile-releases/releases/download/demohearts-android-build-3/demohearts-0.0.20-build3.apk)**
+
+This development prerelease is signed and its package metadata and checksum
+have been verified. Installation, launch, sign-in and updating on a physical
+Android phone remain untested. Use test data only. Read the
+[release notes and checksums](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-3)
+before installing. Android 7.0 (API 24) or later is required.
+
+The repository contains downloads, release guidance and metadata, not application
+source code or signing credentials. Build tags 1 and 2 reserve failed attempts;
+they have no APK. Use the download link above or the Releases page, not source
+archives from the Tags page.
 
 ## Install DemoHearts on Android
 
@@ -49,8 +57,8 @@ will not work. The APK is not a server deployment. Use coordinated test sessions
 
 The visible application version identifies the selected application source
 release. The Android build number identifies a particular distributed build.
-For example, `demohearts-0.0.18-build1.apk` is application version `0.0.18`,
-Android build `1`; this is a naming example, not an available download.
+The first available APK, `demohearts-0.0.20-build3.apk`, is application version
+`0.0.20`, Android build `3`.
 
 Each APK release includes release notes, a SHA-256 checksum and a release
 manifest describing its exact source version/commit, build number, certificate,
