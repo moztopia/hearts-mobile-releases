@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.3 — 7 November 2026
+
+- Point the download page to DemoHearts 0.0.30/build 4 and summarize the combined
+  UX changes since the original development APK (mobile #386).
+- Retain installation/sign-in/update as unverified on a physical Android phone;
+  disclose the existing numeric-distance dialog copy limitation and development
+  backend dependency. Application source and signing credentials remain private.
+
 ## 0.0.2 — 4 November 2026
 
 - Link the published DemoHearts 0.0.20/build 3 APK directly from the front page.
