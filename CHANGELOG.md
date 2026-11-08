@@ -2,7 +2,7 @@
 
 ## 0.0.4 - 8 November 2026
 
-- Point the current download to DemoHearts 0.0.41, Android build 5.
+- Point the current download to DemoHearts 0.0.41, Android build 6.
 - Describe Your searches, restored shared controls and current localized styling.
 - Retain signing/update guidance and explicit physical-device acceptance limits.
 

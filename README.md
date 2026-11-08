@@ -6,20 +6,20 @@ key for testing. These builds must never be used as production releases.
 
 **[Browse available downloads](https://github.com/moztopia/hearts-mobile-releases/releases)**
 
-**[Download DemoHearts 0.0.41 — Android build 5 (APK)](https://github.com/moztopia/hearts-mobile-releases/releases/download/demohearts-android-build-5/demohearts-0.0.41-build5.apk)**
+**[Download DemoHearts 0.0.41 — Android build 6 (APK)](https://github.com/moztopia/hearts-mobile-releases/releases/download/demohearts-android-build-6/demohearts-0.0.41-build6.apk)**
 
 This development prerelease is signed and its package metadata and checksum
 have been verified. Installation, launch, sign-in and updating on a physical
 Android phone remain untested. Use test data only. Read the
-[release notes and checksums](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-5)
+[release notes and checksums](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-6)
 before installing. Android 7.0 (API 24) or later is required.
 
 The repository contains downloads, release guidance and metadata, not application
-source code or signing credentials. Build tags 1 and 2 reserve failed attempts;
+source code or signing credentials. Build tags 1, 2 and 5 reserve failed attempts;
 they have no APK. Use the download link above or the Releases page, not source
 archives from the Tags page.
 
-Build 5 consolidates search management into **Your searches**, with independent
+Build 6 consolidates search management into **Your searches**, with independent
 search locations, whole-country/Everywhere modes, shared distance and age controls,
 and consistent lavender backgrounds/white cards across search editing and
 Smoking/Pets preferences. Manual distance entry keeps Set beneath the field and
