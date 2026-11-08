@@ -2,9 +2,10 @@
 
 ## 0.0.4 - 8 November 2026
 
-- Point the current download to DemoHearts 0.0.41, Android build 6.
+- Point the current download to DemoHearts 0.0.41, Android build 8.
 - Describe Your searches, restored shared controls and current localized styling.
-- Retain signing/update guidance and explicit physical-device acceptance limits.
+- Record clean installation and launch on OPPO/Android 13; retain signing/update
+  guidance and the remaining physical-device acceptance limits.
 
 ## 0.0.3 — 7 November 2026
 
