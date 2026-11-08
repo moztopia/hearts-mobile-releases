@@ -6,12 +6,12 @@ key for testing. These builds must never be used as production releases.
 
 **[Browse available downloads](https://github.com/moztopia/hearts-mobile-releases/releases)**
 
-**[Download DemoHearts 0.0.30 — Android build 4 (APK)](https://github.com/moztopia/hearts-mobile-releases/releases/download/demohearts-android-build-4/demohearts-0.0.30-build4.apk)**
+**[Download DemoHearts 0.0.41 — Android build 5 (APK)](https://github.com/moztopia/hearts-mobile-releases/releases/download/demohearts-android-build-5/demohearts-0.0.41-build5.apk)**
 
 This development prerelease is signed and its package metadata and checksum
 have been verified. Installation, launch, sign-in and updating on a physical
 Android phone remain untested. Use test data only. Read the
-[release notes and checksums](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-4)
+[release notes and checksums](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-5)
 before installing. Android 7.0 (API 24) or later is required.
 
 The repository contains downloads, release guidance and metadata, not application
@@ -19,13 +19,18 @@ source code or signing credentials. Build tags 1 and 2 reserve failed attempts;
 they have no APK. Use the download link above or the Releases page, not source
 archives from the Tags page.
 
-Build 4 brings together translated interface labels and readable screen titles,
-the shared Cupertino birthday selector, optional profile-completion guidance,
-Chats search and All/Unread filters, public profile facts, photo-led Browse
-cards, a compact photo gallery and full-page search preferences. Voice
-introductions remain unimplemented. Some copy inside the shared numeric-distance
-dialog is still English-only. These source changes have automated validation;
-their Android appearance and native behavior still require device acceptance.
+Build 5 consolidates search management into **Your searches**, with independent
+search locations, whole-country/Everywhere modes, shared distance and age controls,
+and consistent lavender backgrounds/white cards across search editing and
+Smoking/Pets preferences. Manual distance entry keeps Set beneath the field and
+above the keyboard or reachable by scrolling. Earlier translated labels, titles,
+Cupertino birthday selection and other improvements remain included. Flackage is
+removed; shared control copy is localized in all five supported languages.
+
+Automated checks and release compilation do not establish phone acceptance.
+Physical installation, appearance, sign-in and update checks remain open for this
+build. Live Google Maps activation and voice introductions remain unavailable.
+An intermittent sign-out cleanup warning remains under investigation.
 
 ## Install DemoHearts on Android
 
