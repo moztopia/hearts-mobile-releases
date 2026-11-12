@@ -10,9 +10,11 @@ key for testing. These builds must never be used as production releases.
 
 This development prerelease is signed and its package metadata and checksum
 have been verified. All 845 host checks, source analysis and SDK dependency
-verification passed. Physical installation, launch, sign-in, onboarding and
-in-place update remain unverified for this exact APK. Earlier phone checks do
-not establish acceptance of this build. Use test data only. Read the
+verification passed. Installation over an existing same-certificate development
+build, two cold launches and retained session/settings passed on an OPPO CPH2237
+running Android 13 on 12 November 2026. Fresh sign-in, onboarding and an upgrade
+between two distributed release APK versions remain unverified. Use test data
+only. Read the
 [release notes and checksums](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-10)
 before installing. Android 7.0 (API 24) or later is required.
 
@@ -27,10 +29,13 @@ settings have clearer sections; the current Profile cover cannot be deleted.
 Onboarding refinements and silent best-effort logout cleanup are included,
 along with SDK 0.1.15. Your searches and the previous localized controls remain.
 
-Automated checks do not establish full phone acceptance. Interface review,
-sign-in, onboarding and in-place update remain open for this build. Live Google
-Maps activation and optional voice introductions remain unavailable. Provider
-sign-in has not been reverified for this build.
+The native check upgraded a development-signed debug build (0.0.63/build 1) to
+this release APK (0.0.64/build 10) without uninstalling or clearing data. The
+existing profile, cover/photo count, English language and three-column Browse
+preference were retained. This is a focused update/startup check, not full phone
+acceptance. Fresh/provider sign-in, onboarding, broader interface review and a
+release-to-release upgrade remain open. Live Google Maps activation and optional
+voice introductions remain unavailable.
 
 ## Install DemoHearts on Android
 

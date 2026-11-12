@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.6 - 12 November 2026
+
+- Record successful in-place installation of DemoHearts 0.0.64/build 10 and
+  two cold launches on OPPO CPH2237/Android 13.
+- Confirm retained session, visible profile/photo data, English and Browse
+  preference from the same-certificate debug installation; distinguish the
+  remaining fresh sign-in, onboarding and release-to-release upgrade checks.
+
 ## 0.0.5 - 12 November 2026
 
 - Point the current download to DemoHearts 0.0.64, Android build 10.
