@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.0.5 - 12 November 2026
+
+- Point the current download to DemoHearts 0.0.64, Android build 10.
+- Summarize Browse, Profile, onboarding, logout and SDK improvements.
+- Record current host/build verification while keeping this APK's physical
+  acceptance explicitly unverified; preserve the older downloads.
+- Correct signing guidance: configured debug and release test builds share
+  the development certificate; different certificates still block updates.
+
 ## 0.0.4 - 8 November 2026
 
 - Point the current download to DemoHearts 0.0.41, Android build 8.
