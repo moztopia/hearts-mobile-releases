@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.0.8 — 14 November 2026
+
+- Make the verified hearts+notify rolling development channel the primary download path, with current asset selection explained in its release notes.
+- Record the first successful automatic cut, DemoHearts0.0.77/build24, its checksum/source and independent anonymous artifact verification.
+- Distinguish private-candidate phone evidence from acceptance of the newly published APK; retain numeric badge/iPhone and other native limits.
+- Preserve prior numbered releases/reservations and source-free public metadata.
+
+## 0.0.7 — 14 November 2026
+
+- Define the owner-selected named development channel, automatic develop trigger and verified failure-safe replacement contract in PR7.
+- This changelog entry is recorded with the0.0.8 receipt from the accepted0.0.7 integration; its source history/date are preserved.
+
 ## 0.0.6 - 12 November 2026
 
 - Record successful in-place installation of DemoHearts 0.0.64/build 10 and
