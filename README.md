@@ -37,6 +37,17 @@ acceptance. Fresh/provider sign-in, onboarding, broader interface review and a
 release-to-release upgrade remain open. Live Google Maps activation and optional
 voice introductions remain unavailable.
 
+## Named development channel
+
+The owner-selected rolling channel is **hearts+notify**. The private source
+repository's remote develop integrations automatically publish verified
+DemoHearts Android cuts to that channel after the workflow passes. See the
+[release contract](docs/release-contract.md). Its stable release tag is
+`demohearts-development-6865617274732b6e6f74696679`; a channel is available only
+once its first cut publishes successfully. The numbered downloads above remain
+usable until a newer cut is verified. Numeric application source versions and
+Android build numbers remain separate from this persistent channel name.
+
 ## Install DemoHearts on Android
 
 1. Open the downloads link above on your Android phone.

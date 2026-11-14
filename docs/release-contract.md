@@ -40,9 +40,24 @@ architectures actually packaged. Do not substitute an incomplete split APK set.
 
 ## Reservation, approval and immutability
 
-Only a manually initiated, explicitly approved DemoHearts build may publish.
-Do not build or publish on ordinary source pushes, merges or tags. Reservation
-and publication must follow the shared allocator implemented under mobile #360:
+On14November2026 the owner selected `hearts+notify` and authorized automatic
+DemoHearts Android development cuts from the private source repository's remote
+`develop`. This supersedes the original manual-only trigger rule for that
+configured target. Other targets and production publication remain separate.
+The existing manual publisher can still serve explicitly selected work.
+
+Each accepted source integration advances its numeric patch once and receives
+an immutable tag at the exact merge. CI builds that source with the existing
+development signer and the next permanent Android reservation. It first
+publishes and anonymously verifies an immutable numbered build, then stages
+those uniquely named assets in the rolling **hearts+notify** prerelease.
+The stable slot tag is `demohearts-development-6865617274732b6e6f74696679`;
+it points to public hub metadata, never private application source. Its current
+notes change only after verification, and previous assets remain available.
+A failed or stale cut cannot replace the previous current build. The workflow
+cannot create credentials, broaden App permissions or change signing identity.
+
+Reservation and immutable publication retain the allocator contract from #360:
 
 1. Inspect all existing `demohearts-android-build-*` Git refs, including failed
    reservations and tags with no published Release.
