@@ -1,52 +1,56 @@
 # Hearts mobile releases
 
-Public downloads and release notes for Hearts mobile applications.
-The current delivery is **DemoHearts for Android**, signed with a development-only
-key for testing. These builds must never be used as production releases.
+Public downloads and release notes for Hearts mobile applications. Current delivery
+is **DemoHearts for Android**, signed with the existing development-only key.
+Use test accounts/data; these APKs are not production releases.
 
-**[Browse available downloads](https://github.com/moztopia/hearts-mobile-releases/releases)**
+**[Download the latest DemoHearts APK — hearts+notify](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-development-6865617274732b6e6f74696679)**
 
-**[Download DemoHearts 0.0.64 — Android build 10 (APK)](https://github.com/moztopia/hearts-mobile-releases/releases/download/demohearts-android-build-10/demohearts-0.0.64-build10.apk)**
+Open that channel and download the APK filename identified in its current notes.
+Older uniquely named assets remain available for rollback/history; they are not
+necessarily the current cut. Numeric source versions and Android build numbers
+remain separate from the persistent owner-selected name **hearts+notify**.
 
-This development prerelease is signed and its package metadata and checksum
-have been verified. All 845 host checks, source analysis and SDK dependency
-verification passed. Installation over an existing same-certificate development
-build, two cold launches and retained session/settings passed on an OPPO CPH2237
-running Android 13 on 12 November 2026. Fresh sign-in, onboarding and an upgrade
-between two distributed release APK versions remain unverified. Use test data
-only. Read the
-[release notes and checksums](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-10)
-before installing. Android 7.0 (API 24) or later is required.
+Remote develop integrations automatically build only DemoHearts Android in the
+pinned container. The workflow verifies an immutable numbered build and anonymous
+downloads before switching the channel's current notes. Failed/stale cuts preserve
+its previous working payload. See the [release contract](docs/release-contract.md).
 
-The repository contains downloads, release guidance and metadata, not application
-source code or signing credentials. Build tags 1, 2, 5, 6, 7 and 9 reserve failed attempts;
-they have no APK. Use the download link above or the Releases page, not source
-archives from the Tags page.
+## Verified cut — 14 November 2026
 
-Build 10 includes refined Browse cards with a subtle photo fade, compact
-three-column actions and improved long-name/online-presence handling. Profile
-settings have clearer sections; the current Profile cover cannot be deleted.
-Onboarding refinements and silent best-effort logout cleanup are included,
-along with SDK 0.1.15. Your searches and the previous localized controls remain.
+[DemoHearts 0.0.77, Android build 24](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-24)
+is the first verified automatic named cut. It includes the main-tab notification
+bell, authorized people/event cards and corrected conversation/sign-in recovery.
+The candidate passes935 app/appearance/manual-publisher checks, source analysis
+and reviewed SDK0.1.17 verification. The hosted workflow also passes release
+analysis, signing/package checks and public asset verification. Independent
+anonymous downloads from both release locations match their checksums.
 
-The native check upgraded a development-signed debug build (0.0.63/build 1) to
-this release APK (0.0.64/build 10) without uninstalling or clearing data. The
-existing profile, cover/photo count, English language and three-column Browse
-preference were retained. This is a focused update/startup check, not full phone
-acceptance. Fresh/provider sign-in, onboarding, broader interface review and a
-release-to-release upgrade remain open. Live Google Maps activation and optional
-voice introductions remain unavailable.
+- Source tag: `0.0.77`; exact private source commit:
+  `983525ac9e9ae6f08ed12314a9580fc53113419c`.
+- APK SHA-256: `23936d98324e0ce6e96021b158c3b9e9209cc7ae8d99a45aec7c344cfdce88b0`.
+- Android7.0/API24 or later; packaged ABIs: arm64-v8a,armeabi-v7a,x86_64.
+- Application ID: `com.moztopia.hearts.demohearts`; existing development signing
+  identity is preserved. The manifest records its public certificate fingerprint.
 
-## Named development channel
+A private candidate with matching app/native source and catalog content was
+checked on OPPO CPH2237/Android13 for bells/history/Back, people cards, unavailable
+feedback, retained drafts, cold-process/sign-in resume and owner-confirmed tone
+and short/light haptic. Those dated checks do not establish installation or full
+physical acceptance of this newly published APK and its resolved dependencies.
+No phone reinstall was performed during publication. Fresh installation,
+onboarding and an upgrade between distributed APKs remain unverified here.
 
-The owner-selected rolling channel is **hearts+notify**. The private source
-repository's remote develop integrations automatically publish verified
-DemoHearts Android cuts to that channel after the workflow passes. See the
-[release contract](docs/release-contract.md). Its stable release tag is
-`demohearts-development-6865617274732b6e6f74696679`; a channel is available only
-once its first cut publishes successfully. The numbered downloads above remain
-usable until a newer cut is verified. Numeric application source versions and
-Android build numbers remain separate from this persistent channel name.
+Known limitations: OPPO shows a notification dot when Number or dot is enabled;
+numbered DemoHearts icon badges remain unresolved. Physical iPhone review and
+APNs are pending; no iPhone artifact is included. Other new-candidate native
+categories/themes/auth variants remain pending. Live Google Maps activation and
+optional voice introductions also remain unavailable. Read the channel notes.
+The developer backend/server/tunnel must be available for online app features.
+
+Earlier numbered downloads remain unchanged. The12November0.0.64/build10 receipt
+records an in-place same-certificate debug-to-release update, two cold launches
+and retained session/settings on the OPPO; it does not certify this new APK.
 
 ## Install DemoHearts on Android
 
