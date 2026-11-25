@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.9 — 25 November 2026
+
+- Record independently verified public0.11.0/build51 downloads, signature, provenance and actual installed bytes.
+- Record the OPPO Android13 in-place public48→51 update, preserved application identity/install date/local language preference and two cold launches.
+- Keep prior artifacts and historical evidence intact; distinguish pending signed-in/fresh-install/notification/iPhone checks.
+
 ## 0.0.8 — 14 November 2026
 
 - Make the verified hearts+notify rolling development channel the primary download path, with current asset selection explained in its release notes.
