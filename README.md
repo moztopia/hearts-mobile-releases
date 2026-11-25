@@ -16,6 +16,35 @@ pinned container. The workflow verifies an immutable numbered build and anonymou
 downloads before switching the channel's current notes. Failed/stale cuts preserve
 its previous working payload. See the [release contract](docs/release-contract.md).
 
+## Build 51 Android update check — 25 November 2026
+
+[DemoHearts0.11.0 / Android build51](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-51)
+is verified from the public numbered download and the usual hearts+notify channel.
+All six anonymous APK/checksum/manifest downloads match, including identical APK
+bytes and published digests. Source tag0.11.0 identifies exact commit
+`0fd071e0518dc63e3bc569911e0900fc43d9961f`; APK SHA-256 is
+`b4714fa3407303aff859ea67847f744c22c8ea537f426a7cb7ba64b7e4afffea`.
+Package/signature/version/provenance checks pass with the existing development
+signer. Android7.0/API24+ and arm64-v8a/armeabi-v7a/x86_64 remain supported.
+
+On the owner-authorized OPPO CPH2237/Android13, the previously installed private
+build20 was already signed out before testing. After signature/update preflight,
+public build48 was installed, followed by the exact public build51, using in-place
+updates throughout. The Android app UID and original installation date remain
+unchanged; a German language preference set on48 survives51. English was restored.
+The installed51 APK was pulled back and matches the public checksum exactly.
+Two cold launches succeed (Android-reported2056ms and936ms), with no app crash
+marker recorded in the first launch's Android crash buffer.
+
+This verifies a public-release-to-public-release installation path and retained
+local settings. It does not establish retained authentication: the app was already
+signed out. Signed-in Profile/legal checks await owner sign-in; fresh installation,
+full onboarding, notification/device categories and iPhone acceptance remain
+separate. No account reset, uninstall, app-data clear or new legal acceptance was
+performed by the agent. The developer backend/tunnel must remain available.
+
+by-tigger
+
 ## Verified cut — 14 November 2026
 
 [DemoHearts 0.0.77, Android build 24](https://github.com/moztopia/hearts-mobile-releases/releases/tag/demohearts-android-build-24)
